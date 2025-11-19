@@ -1,0 +1,107 @@
+.ProfileCard {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #e3e7b5;
+    margin: 0;
+
+    .card {
+        width: 450px;
+        background-color: white;
+        border-radius: 50px;
+
+        .head_block {
+            background-color: #722c36;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+
+            .avatar {
+                margin-top: 20px;
+                width: 140px;
+                height: 140px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+
+        .voln {
+            width: 450px;
+            height: 70px;
+        }
+
+        .name {
+            margin-top: 36px;
+            font-size: 36px;
+            color: black;
+            text-align: center;
+        }
+
+        .tag {
+            font-size: 16px;
+            color: #a9a9a9;
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .icons {
+            display: flex;
+            margin-top: 35px;
+            justify-content: center;
+            gap: 35px;
+            align-items: center;
+
+            .fb_icon {
+                width: 25px;
+                height: 25px;
+            }
+        }
+
+        .description {
+            font-size: 16px;
+            color: black;
+            max-width: 365px;
+            margin-top: 35px;
+            text-align: center;
+        }
+
+        .btn_group {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            align-items: center;
+            margin-top: 65px;
+            margin-bottom: 35px;
+
+            .left_btn {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                width: 160px;
+                text-align: center;
+                font-size: 18px;
+                color: white;
+                background-color: #e03f8b;
+                border: none;
+                outline: none;
+                border-radius: 40px;
+            }
+
+            .right_btn {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                width: 160px;
+                text-align: center;
+                font-size: 18px;
+                color: #a9a9a9;
+                background-color: transparent;
+                border: 2px solid #a9a9a9;
+                outline: none;
+                border-radius: 40px;
+            }
+        }
+    }
+}

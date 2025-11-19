@@ -1,0 +1,17 @@
+@use "reset";
+@use "classes";
+@use "variables/global";
+
+.app,
+.app_modal {
+    color: var(--primary-color);
+    font: var(--font-m);
+}
+
+.app {
+    background: var(--bg-color);
+}
+
+.content-page {
+    min-height: 100vh;
+}
